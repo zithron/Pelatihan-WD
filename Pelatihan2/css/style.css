@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+}
+
+#tool {
+    font-weight: bold;
+    border: 2px solid #cdcdcd;
+    margin: 5px;
+    font-size: 12px;
+    color: #666666;
+    height: 30px;
+}
+
+#text {
+    border: 1px solid #4C80CF;
+    width: 572px;
+    height: 30px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+img {
+    padding-top: 100px;
+    width: 460px;
+}
