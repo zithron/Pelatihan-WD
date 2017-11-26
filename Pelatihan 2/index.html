@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pelatihan 2 - CSS</title>
+    <!-- memanggil file style.css pada folder css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- internal styling -->
+    <style>
+        .box-class {
+            background-color: blue;
+        }
+        .box-class .h5 {
+            color: pink;
+        }
+        #box-id {
+            background-color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- INLINE STYLING -->
+    <h1 style="color: #ce4dbe; margin: 117px;">Lorem ipsum.</h1>
+    <!-- INLINE STYLING end -->
+
+    <!-- INTERNAL STYLING (styling di tag style pada head) -->
+    <!-- div TAG -->
+    <div>
+        <h5>Ini div Tag</h5>
+    </div>
+    <!-- Class -->
+    <div class="box-class">
+        <h5>Ini Class</h5>
+    </div>
+    <!-- ID -->
+    <div id="box-id">
+        <h5>Ini ID</h5>
+    </div>
+    <!-- INTERNAL STYLING (styling di tag style pada head) end -->
+
+    <!-- EXTERNAL STYLING (styling di beda file)-->
+    <h2 class="title">Lorem ipsum.</h2>
+    <!-- Tag -->
+    <div>
+        <h5>Ini div Tag</h5>
+    </div>
+    <!-- Class -->
+    <div class="div1">
+        <h5>Ini Class</h5>
+    </div>
+    <!-- ID -->
+    <div id="id1">
+        <h5>Ini ID</h5>
+    </div>
+
+    <p class="paragraf">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, ducimus! Id quam voluptas, saepe. Laboriosam, rerum quidem consequatur delectus amet aliquid ab omnis odit a distinctio! Suscipit voluptatum sed, saepe.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia tenetur saepe id molestias quo, nesciunt! Nobis deleniti ex quod velit, accusantium iste perferendis magni, porro dicta temporibus, ea numquam recusandae!</p>
+    
+    <div>
+        <span>Span #1, in the div.
+            <span>Span #2, in the span that's in the div.</span>
+        </span>
+    </div>
+    
+    <span>Span #3, not in the div at all.</span>
+    
+    <br>
+    <br>
+    <br>
+    
+    <!-- styling link -->
+    <a href="https://www.w3schools.com/" target="_blank">Ini Link</a>
+    
+    <!-- Cek Font -->
+    <div>
+        <h1 class="title">Ini Title Lato Font</h1>
+        <p class="paragraf">Paragraf Open Sans. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facilis ipsum, commodi numquam cum quod voluptate facere cumque totam quos quisquam debitis sapiente, dolorum excepturi rem ab, incidunt, harum quo.</p>
+    </div>
+
+    <!-- EXTERNAL STYLING (styling di beda file) end -->
+
+</body>
+
+</html>

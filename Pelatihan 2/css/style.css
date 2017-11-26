@@ -1,0 +1,108 @@
+/* memanggil font */
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+
+html,
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+    color: pink;
+    margin: 100px;
+}
+
+
+
+
+/*psudo class*/
+
+h2:hover {
+    color: red;
+}
+
+div h5 {
+    color: red;
+}
+
+.div1 h5 {
+    color: yellow;
+}
+
+
+#id1 h5 {
+    font-size: 100px;
+}
+
+p.paragraf {
+    color: pink;
+}
+
+
+
+
+/*untuk styling dengan > */
+
+span {
+    background-color: white;
+}
+
+div>span {
+    background-color: DodgerBlue;
+}
+
+
+
+
+/* Styling Link */
+
+
+/* unvisited link */
+
+a:link {
+    color: blue;
+}
+
+
+
+
+/* visited link*/
+
+a:visited {
+    color: green;
+}
+
+
+
+
+/* hover */
+
+a:hover {
+    color: red;
+}
+
+
+
+
+/* selected link */
+
+a:active {
+    color: yellow;
+}
+
+
+
+
+/* End of Styling Link*/
+
+
+/*:after:before:focus*/
+
+.title {
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+/*-moz-property
+-webkit-property
+o-property*/

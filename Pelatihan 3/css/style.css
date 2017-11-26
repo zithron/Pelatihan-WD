@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Section 1 */
+.section1 {
+    height: 600px;
+    width: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    background-image: url("../img/book.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section1 h1 {
+    padding-top: 200px;
+    color: white;
+    text-align: center;
+}
+
+.section1 p {
+    color: white;
+    text-align: center;
+}
+/* Section 1 End */
+
+/* Section 2 */
+.section2 {
+    height: auto;
+    width: auto;
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: white;
+    padding-bottom: 100px;
+}
+
+.section2 h1 {
+    padding-top: 200px;
+    color: black;
+    text-align: center;
+}
+
+.section2 .galeri {}
+
+.section2 .galeri .gambar {
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+.section2 .galeri .gambar img {
+    width: 200px;
+    height: 200px;
+}
+
+.section2 .galeri .gambar p {
+    text-align: center;
+}
+/* Section 2 End*/
+
+
+/* Section 3 */
+.section3 {
+    height: 200px;
+    background-color: black;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: white;
+}
+
+.section3 p {
+    text-align: center;
+    padding-top: 100px;
+}
+.section3 .social-media {
+	text-align: center;
+}
+.section3 .social-media a {
+    text-decoration: none;
+    width: 20px;
+    padding: 20px;
+    font-size: 15px;
+    background-color: white;
+    text-align: center;
+    border-radius: 50%;
+    color: #131919;
+    border: 1px solid #131919;
+}
+
+.section3 .social-media a:hover {
+     background-color: #131919;
+     color: white;
+     border: 1px solid white;
+}
+/* Section 3 End*/
